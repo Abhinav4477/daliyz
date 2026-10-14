@@ -1,0 +1,6 @@
+{
+  "name": "dailyz",
+  "description": "Daily work time tracker with persistent notification, 3-hour daily goal with overtime tracking, 3-month local history, work reminders, weekly trends chart, and smart notes with auto-summed CSV.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

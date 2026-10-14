@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <!-- Stopwatch top button -->
+    <path
+        android:fillColor="#94A3B8"
+        android:pathData="M51,26h6v4h-6z" />
+    <path
+        android:fillColor="#64748B"
+        android:pathData="M48,24h12v3h-12z" />
+
+    <!-- Main Outer Progress Ring (Base Goal Completed) -->
+    <path
+        android:fillColor="#00000000"
+        android:pathData="M54,34 A20,20 0 1,1 53.9,34"
+        android:strokeColor="#2563EB"
+        android:strokeWidth="4.5"
+        android:strokeLineCap="round" />
+
+    <!-- Overtime Accent Arc (Layered over the top) -->
+    <path
+        android:fillColor="#00000000"
+        android:pathData="M54,34 A20,20 0 0,1 74,54"
+        android:strokeColor="#F59E0B"
+        android:strokeWidth="5"
+        android:strokeLineCap="round" />
+
+    <!-- Clock Center Pin -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M54,51 A3,3 0 1,0 54,57 A3,3 0 1,0 54,51" />
+
+    <!-- Clock Hands: pointing to 3:00 (3 Hour Daily Target) -->
+    <!-- Hour hand pointing right (to 3 o'clock) -->
+    <path
+        android:fillColor="#00000000"
+        android:pathData="M54,54 L66,54"
+        android:strokeColor="#F8FAFC"
+        android:strokeWidth="3"
+        android:strokeLineCap="round" />
+    <!-- Minute hand pointing up (to 12 o'clock) -->
+    <path
+        android:fillColor="#00000000"
+        android:pathData="M54,54 L54,42"
+        android:strokeColor="#38BDF8"
+        android:strokeWidth="2.5"
+        android:strokeLineCap="round" />
+
+    <!-- Checkmark badge in bottom-left corner of the watch -->
+    <path
+        android:fillColor="#10B981"
+        android:pathData="M38,62 A6,6 0 1,0 38,74 A6,6 0 1,0 38,62" />
+    <path
+        android:fillColor="#00000000"
+        android:pathData="M35,68 L37,70 L41,66"
+        android:strokeColor="#FFFFFF"
+        android:strokeWidth="1.5"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round" />
+</vector>
